@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    
+    <div class="logo"><img src="LOGO.svg"></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#">About</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="cf.html">Contact</a></li>
+    </ul>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+  <div class="grid-container">
+    <div class="grid-items">
+      <h1>LESOTHO MOUNTAINS</h1>
+      <img src="45.webp">
+      <P>Lesotho is a mountainous, landlocked country located in Southern Africa. It is an enclave, surrounded by South Africa. The total length of the country's borders is 909 kilometres (565 mi). Lesotho covers an area of around 30,355 square kilometres (11,720 sq mi), of which a negligible percentage is covered with water.</P>
+    </div>
+
+ <div class="grid-items">
+ <img src="44.webp">
+
+<P>
+  Lesotho is the only independent state in the world that lies entirely above 1,000 metres (3,281 ft) in elevation.[1] Its lowest point is at 1,400 metres (4,593 ft), the highest low point of any country.[2] Because of its elevation, the country's climate is cooler than in most other regions at the same latitude. Its climate zone can be classified as continental.
+
+</P></div>
+</div>
+
+         <footer>
+          <p>&copy;2025 Lesotho Mauntain </p>
+         </footer></nav>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us-Basotho Cultural Heritage</title>
+</head>
+<body>
+		
+	<header>
+		<h1>contacts Us</h1>
+	</header>
+
+  <nav class="navbar">
+    
+    <div class="logo"><img src="LOGO.svg"></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="cf.html">Contact</a></li>
+    </ul>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+  </nav>
+
+  <script>
+    function toggleMenu() {
+      const nav = document.getElementById('navLinks');
+      nav.classList.toggle('active');
+    }
+  </script>
+	       <main>
+	       	
+	       		<h2>Send Us Meassage</h2>
+	       		<p>If You have any questions or feedback,please fill out the form below:</p>
+	       		<form action="#"method="post">
+	       			<lebel for ="name">Full Name:</lebel><br>
+	       			<input type="text" name="name"name="name"required><br>
+	       			<lebel for ="contact">Conanct Number:</lebel><br>
+	       			<input type="number" name="contanct"name="contact"required><br>
+	       			<lebel for ="email">Email Adress:</lebel><br>
+	       			<input type="email" name="email"name="email"required><br>
+	       			<lebel for ="message">Your Message:</lebel><br>
+	                <textarea id="message"name="message"rows="6"required></textarea>
+                
+                
+	               <div class="radio"> <h3>Feedback</h3>
+	                <label>How do You rate our webasites?</label><br>
+	                <input type="radio" name="rating"value="Good">Good<br>
+	                <input type="radio" name="rating"value="Modarate">Modarate<br>
+	                <input type="radio" name="rating"value="Poor">Poor<br><br><br>
+	                <label for="Suggestions">Any Suggestion to improve?</label><br>
+	                <textarea id="Suggestions"name="Suggestions"rows="5"></textarea><br>
+                
+	                <input type="Submit" value="Submit">
+	                <h1>For More Information follow Us</h1>
+	            
+	        </form>
+	    </main>
+	     	       <footer>
+	       	<p>&copy;2025 Lesotho Mountains </p>
+	       </footer></nav>
+
+	       	
+	
+
+
+	       
+
+</body>
+</html>
